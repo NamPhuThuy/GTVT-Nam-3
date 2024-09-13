@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/baseColor"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/layoutSongItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Ảnh của bài hát-->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/H_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hinhnen"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Text View hiển thị tên bài hát trong album-->
+            <TextView
+                android:id="@+id/txtArtistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Artist Name"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+
+            <!-- Text View hiển thị ca sĩ trong album-->
+            <TextView
+                android:id="@+id/txtSongArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="Song Artist"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/layoutSongItem"
+        android:background="@color/white"
+        />
+
+</RelativeLayout>

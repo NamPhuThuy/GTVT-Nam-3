@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Fragments.FavoriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="15dp"-->
+<!--            android:gravity="center_vertical">-->
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/F_avatar"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginRight="35dp"-->
+<!--                android:src="@drawable/hinhnen" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Favourite"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="24dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linearLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/F_btnPlaylist"-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:backgroundTint="@color/primary"-->
+<!--                android:text="My Playlist"-->
+<!--                android:textColor="@color/black" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/F_btnArtist"-->
+<!--                android:layout_width="110dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:backgroundTint="@color/baseColor"-->
+<!--                android:text="Artists"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/idRVPlaylist"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_marginStart="4dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--                    tools:listitem="@layout/song_item" />-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/idRVArtists"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="4dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginEnd="4dp"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--                    tools:listitem="@layout/artist_item" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:src="@drawable/add_icon"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="300dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginLeft="15dp"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:text="Add favorite artists"/>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/btnAddPlaylist"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginBottom="4dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:src="@drawable/add_icon"/>-->
+<!--                    <TextView-->
+<!--                        android:layout_width="300dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginLeft="15dp"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:text="Add favorite postcards or playlists"/>-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+<!--        </ScrollView>-->
+
+
+
+<!--    </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".AlbumDetailActivity">
+
+    <!-- image view for displaying album image-->
+    <ImageView
+        android:id="@+id/imgViewAlbum"
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <!-- text view for displaying album name-->
+    <TextView
+        android:id="@+id/txtAlbumName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgViewAlbum"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@id/idAdd_icon"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Ablum"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- text view for displaying album artist-->
+    <TextView
+        android:id="@+id/txtArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAlbumName"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@id/idAdd_icon"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="4dp"
+        android:text="Artist Name"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!--Icon for add ablum into favorites-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/idAdd_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imgViewAlbum"
+        android:layout_toLeftOf="@id/idFaPlay"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="80dp"
+        android:padding="10dp"
+        android:src="@drawable/add_icon" />
+
+    <!--Icon for play ablum-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/idFaPlay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgViewAlbum"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="10dp"
+        android:src="@drawable/img_1"
+        />
+
+    <!-- recycler view to display tracks-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVSongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idAdd_icon"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/song_item" />
+
+</RelativeLayout>

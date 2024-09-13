@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_notification"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hinhnen"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_notification"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name_song_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name song"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_name_artist_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name artist"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_pre_notification"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@id/img_play_or_pause_notification"
+        android:layout_centerVertical="true"
+        android:src="@drawable/prev_icon2"/>
+
+    <ImageView
+        android:id="@+id/img_play_or_pause_notification"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@id/img_next_notification"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/play2_icon"/>
+
+    <ImageView
+        android:id="@+id/img_next_notification"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/next_icon2"/>
+
+</RelativeLayout>
