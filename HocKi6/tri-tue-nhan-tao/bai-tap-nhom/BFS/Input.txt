@@ -1,0 +1,13 @@
+9
+A B C D E F I G K
+13
+A B C D
+B I G
+C E F
+D C F
+E G
+F K
+I G
+G
+K
+A G
